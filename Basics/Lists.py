@@ -34,3 +34,13 @@ another_list = [1, 2, 3, 4, 5, 6]
 another_list[4] = 67
 print(another_list)
 
+#It's also possible to nest different kinds of list into a single one
+a = [1, 3, 5, 7, 9]
+b = [2, 4, 6, 8, 10]
+c = [a, b]
+print(c)
+
+#Quite the same thing as done in line 40, but here we add 2 different lists to form a new list with the combined elements of the 2 lists
+d = [a + b]
+print(d)
+
