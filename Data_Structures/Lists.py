@@ -44,3 +44,11 @@ print(c)
 d = [a + b]
 print(d)
 
+Data = [1, 2, 3, 4, "YajnanaHD", 89.323128790]
+Data.append("Coder")
+print(Data)
+
+Data.pop()
+print(Data)
+
+
