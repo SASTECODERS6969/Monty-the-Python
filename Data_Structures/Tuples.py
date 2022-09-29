@@ -1,3 +1,4 @@
+#A Tuple is basically a more rigid form of a list
 a = 1, 2, 3, 4
 print(a)
 print(a[1])
