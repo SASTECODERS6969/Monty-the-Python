@@ -8,6 +8,7 @@ class BioMetric_Information:
         self.Gender = gender
 
     def data(self):
+        #Tried to make this dictionary global, Is there any way to do so?
         Data = {
             "Name" : self.Name,
             "Age" : self.Age,
