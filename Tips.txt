@@ -1,0 +1,6 @@
+Uh, It's safe to say that I'm quite crappy at programming, So I'm upgrading my skills and learning techniques which I can Use.
+I'll put all of 'em here.
+
+- Use Functions in your Code
+- Be Persistent
+- Learn to maintain your Code
