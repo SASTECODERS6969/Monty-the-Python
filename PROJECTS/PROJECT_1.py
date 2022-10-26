@@ -37,17 +37,3 @@ def rock_paper_scissors(user_answer):
                  
 
 print(rock_paper_scissors(r.choice(Possible_Results)))
-    
-    
-    
-
-    
-
-
-
-    
-    
-    
-    
-
-    
