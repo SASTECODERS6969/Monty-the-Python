@@ -16,6 +16,7 @@ def rock_paper_scissors(user_answer):
         elif computer_answer == "Rock" and user_answer == "Scissors":
             print("You Win!")
             user_points += 1
+            print(user_points)
         else:
 
            if computer_answer == "Paper" and user_answer == "Rock":
@@ -23,14 +24,17 @@ def rock_paper_scissors(user_answer):
            elif computer_answer == "Paper" and user_answer == "Scissors":
               print("You Win!")
               user_points += 1
+              print(user_points)
            else:
 
               if computer_answer == "Scissors" and user_answer == "Rock":
                  print("You Win!")
                  user_points += 1
+                 print(user_points)
+               
               elif computer_answer == "Scissors" and user_answer == "Paper":
                  print("Computer Wins!")
-                 print("Your Score:", user_points)
+                 
 
 print(rock_paper_scissors(r.choice(Possible_Results)))
     
