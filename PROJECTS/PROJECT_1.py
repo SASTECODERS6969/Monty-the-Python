@@ -1,4 +1,5 @@
 #Aim : To build a Rock_Paper_Scissors game Using Python with my knowledge(No cheating!)
+#The Issue here is the point system, Must've gone somewhere wrong.
 import random as r
 Possible_Results = ["Rock", "Paper", "Scissors"]
 
@@ -17,6 +18,7 @@ def rock_paper_scissors(user_answer):
             print("You Win!")
             user_points += 1
             print(user_points)
+
         else:
 
            if computer_answer == "Paper" and user_answer == "Rock":
@@ -37,17 +39,3 @@ def rock_paper_scissors(user_answer):
                  
 
 print(rock_paper_scissors(r.choice(Possible_Results)))
-    
-    
-    
-
-    
-
-
-
-    
-    
-    
-    
-
-    
